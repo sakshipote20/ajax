@@ -1,0 +1,20 @@
+It allows you to update parts of a web page without needing to reload the entire page. Ajax enables communication between the web browser and the server in the background, without interfering with the user's interaction with the web page.
+
+Update a web page without reloading the page
+Request data from a server - after the page has loaded
+Receive data from a server - after the page has loaded
+Send data to a server - in the background
+
+Here are some key aspects of Ajax:
+
+* Asynchronous Communication: Ajax allows you to send and receive data from the server asynchronously, meaning that the rest of the page can continue to function without waiting for the response from the server.
+
+* XMLHttpRequest (XHR): The XMLHttpRequest object is a core component of Ajax. It provides an easy way to send HTTP requests from the browser to the server and handle the responses.
+
+* Data Exchange Formats: While the acronym contains "XML," Ajax is not limited to XML for data exchange. It can work with various formats such as JSON, HTML, plain text, and more.
+
+* DOM Manipulation: Typically, Ajax is used in conjunction with JavaScript and DOM manipulation to update specific parts of a web page dynamically based on the data received from the server.
+
+* Event-Driven Programming: Ajax programming often involves event-driven programming, where you define functions to handle events such as when the server response is received or when an error occurs during the request.
+
+* Cross-Origin Requests: Ajax requests are subject to the same-origin policy, which means they can only make requests to the same domain from which the web page originated. Cross-origin requests may require additional setup, such as CORS (Cross-Origin Resource Sharing) headers.
